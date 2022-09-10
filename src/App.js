@@ -1,6 +1,7 @@
 import './App.css';
 import NavBar from './components/NavBar.js'
 import Hero from './components/Hero.js'
+import Card from './components/Card.js'
 
 
 function App() {
@@ -8,6 +9,7 @@ function App() {
     <div>
       <NavBar />
       <Hero />
+      <Card />
     </div>
   );
 }
