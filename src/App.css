@@ -17,6 +17,24 @@ body {
 
 }
 
-  .navbar-logo {
-    max-width: 100px;
+.navbar-logo {
+  max-width: 100px;
+}
+
+.hero-image-container {
+display: flex;
+align-items: center;
+justify-content: center;
+padding-top: 5%
+}
+
+.hero-photo-grid {
+  height: 75%;
+  width: 75%;
+}
+
+.hero-text-container {
+  font-family: Poppins;
+  padding-left: 5%;
+  padding-top: 3%;
 }
