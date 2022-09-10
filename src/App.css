@@ -23,18 +23,28 @@ body {
 
 .hero-image-container {
 display: flex;
-align-items: center;
-justify-content: center;
+/* align-items: center;
+justify-content: center; */
+flex-direction: column;
 padding-top: 5%
 }
 
 .hero-photo-grid {
   height: 75%;
   width: 75%;
+  align-self: center;
 }
 
 .hero-text-container {
   font-family: Poppins;
   padding-left: 5%;
   padding-top: 3%;
+}
+
+.hero-title {
+  margin-bottom: 16px;
+}
+
+.hero-description {
+  margin-top: 0;
 }
