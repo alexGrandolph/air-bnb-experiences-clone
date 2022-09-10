@@ -1,8 +1,10 @@
 import './App.css';
+import NavBar from './components/NavBar.js'
+
 
 function App() {
   return (
-    <h1>App Component</h1>
+    <NavBar />
   );
 }
 
