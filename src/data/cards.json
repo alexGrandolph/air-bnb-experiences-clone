@@ -7,7 +7,8 @@
       "location": "USA",
       "description": "Life lessons with Katie Zaferes",
       "price": "From $135",
-      "perPerson": "/person"
+      "perPerson": "/person",
+      "openSpots": "0"
       
     },
     {
@@ -17,7 +18,8 @@
       "location": "USA",
       "description": "Group Mountain Biking",
       "price": "From $50",
-      "perPerson": "/person"
+      "perPerson": "/person",
+      "openSpots": "3"
       
     },
     {
@@ -27,7 +29,8 @@
       "location": "USA",
       "description": "Learn Wedding Photography",
       "price": "From $125",
-      "perPerson": "/group"
+      "perPerson": "/group",
+      "openSpots": "3"
       
     }
   
