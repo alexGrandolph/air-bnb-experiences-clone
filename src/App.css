@@ -59,13 +59,19 @@ padding-top: 5%
 }
 
 .card-container {
-  width: 175px;
-  font-size: 12px;
+    width: 175px;
+    font-size: 12px;
+    flex: 0 0 auto;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    
 }
 
 .card-image {
   width: 100%;
   border-radius: 10px;
+  margin-bottom: 9px;
 }
 
 .card-stats {
@@ -75,4 +81,11 @@ padding-top: 5%
 
 .card-star {
   height: 14px;
+}
+.cards-list {
+  display: flex;
+  flex-wrap: nowrap;
+  gap: 20px;
+  overflow-x: auto;
+  padding-left: 5%;
 }

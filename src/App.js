@@ -9,7 +9,9 @@ function App() {
     <div>
       <NavBar />
       <Hero />
-      <Card />
+      {/* <section className="card-list"> */}
+        <Card />
+      {/* </section> */}
     </div>
   );
 }

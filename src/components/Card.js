@@ -7,7 +7,7 @@ function Card() {
 
 const renderCards = (cards) => {
   return (
-    <>
+    <div className = "cards-list">
       {
         cards.map((card) => {
           return (
@@ -26,12 +26,11 @@ const renderCards = (cards) => {
         })
       }
 
-    </>
+    </div>
   );
     }
   return (
     <div>
-      {console.log(renderCards(cardData.cards))}
       <div>{renderCards(cardData.cards)}</div>
     </div>
   )
