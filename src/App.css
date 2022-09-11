@@ -89,3 +89,13 @@ padding-top: 5%
   overflow-x: auto;
   padding-left: 5%;
 }
+
+.card--badge {
+  position: absolute;
+  top: 6px;
+  left: 6px;
+  background-color: white;
+  padding: 5px 7px;
+  border-radius: 2px;
+  font-weight: bold;
+}
